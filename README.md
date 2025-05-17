@@ -41,20 +41,20 @@ Keras Tuner helps with automatic hyperparameter optimization. It supports techni
 - Keras Tuner (version 1.3.5)
 - Other required libraries
 
-# Breast Cancer Classification Results
-## ResNet50 Model:
+## Breast Cancer Classification Results
+### ResNet50 Model:
 -  Precision: 0.8569
 -  Accuracy: 0.8848
 -  Recall: 0.9196
 -  F1 Score: 0.8871
 
-## VGG16 Model:
+### VGG16 Model:
 - Precision: 0.8892
 - Accuracy: 0.8673
 - Recall: 0.8343
 - F1 Score: 0.8609
 
-## Keras Tuner Model:
+### Keras Tuner Model:
 - Precision: 0.8784
 - Accuracy: 0.8760
 - Recall: 0.8684
