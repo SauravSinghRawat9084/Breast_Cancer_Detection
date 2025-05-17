@@ -69,9 +69,9 @@ The Keras Tuner model, with its tuned hyperparameters, showcased competitive pre
 These results provide insights into the performance of different models for breast cancer classification. Consideration of specific requirements and trade-offs between precision and recall can guide the selection of the most suitable model for your application.
 
 ### Future Work
--Research Paper: Document the methodology, results, and insights gained from this project to contribute to the existing body of knowledge in the field of breast cancer detection using histopathology images.
+- Research Paper: Document the methodology, results, and insights gained from this project to contribute to the existing body of knowledge in the field of breast cancer detection using histopathology images.
 
--Website Hosting: Develop and host a website where users can interact with the model, submit images for analysis, and access information about breast cancer detection.
+- Website Hosting: Develop and host a website where users can interact with the model, submit images for analysis, and access information about breast cancer detection.
 
 ### Contributors
 Saurav Singh Rawat
