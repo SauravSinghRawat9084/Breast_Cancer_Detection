@@ -35,56 +35,48 @@ Keras Tuner helps with automatic hyperparameter optimization. It supports techni
 
 ##  Dependencies
 
-Make sure the following libraries are installed:
+-Python (version 3.10.12)
+-TensorFlow (version 2.13.0)
+-Keras (version 2.13.1)
+-Keras Tuner (version 1.3.5)
+-Other required libraries
 
-```bash
-Python==3.10.12
-TensorFlow==2.13.0
-Keras==2.13.1
-Keras-Tuner==1.3.5
-numpy
-matplotlib
-sklearn
-Install them with:
+# Breast Cancer Classification Results
+## ResNet50 Model:
+- ###### Precision: 0.8569
+- ###### Accuracy: 0.8848
+- ###### Recall: 0.9196
+- ###### F1 Score: 0.8871
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
- Classification Results
-Model	Accuracy	Precision	Recall	F1 Score
-ResNet50	88.48%	85.69%	91.96%	88.71%
-VGG16	86.73%	88.92%	83.43%	86.09%
-Keras Tuner	87.60%	87.84%	86.84%	87.34%
+## VGG16 Model:
+- ###### Precision: 0.8892
+- ###### Accuracy: 0.8673
+- ###### Recall: 0.8343
+- ###### F1 Score: 0.8609
 
-Insights:
+## Keras Tuner Model:
+- ###### Precision: 0.8784
+- ###### Accuracy: 0.8760
+- ###### Recall: 0.8684
+- ###### F1 Score: 0.8734
 
-ResNet50 excels in identifying true positive cases (high recall).
+  ---
+  
+### Conclusion:
+The ResNet50 model demonstrated high recall, indicating its effectiveness in correctly identifying positive cases.
+VGG16 achieved a good balance between precision and recall, leading to a reliable classification performance.
+The Keras Tuner model, with its tuned hyperparameters, showcased competitive precision and accuracy.
+These results provide insights into the performance of different models for breast cancer classification. Consideration of specific requirements and trade-offs between precision and recall can guide the selection of the most suitable model for your application.
 
-VGG16 maintains a solid balance between precision and recall.
+### Future Work
+-Research Paper: Document the methodology, results, and insights gained from this project to contribute to the existing body of knowledge in the field of breast cancer detection using histopathology images.
 
-Keras Tuner finds a middle ground with good overall performance through hyperparameter tuning.
+-Website Hosting: Develop and host a website where users can interact with the model, submit images for analysis, and access information about breast cancer detection.
 
-Future Work
-Research Paper: Document and publish findings for academic contribution.
-
-Website Hosting: Build an interactive web app where users can upload images for classification and learn more about breast cancer detection.
-
-Contributor
+### Contributors
 Saurav Singh Rawat
 
-Acknowledgments
-Thanks to Kaggle for the dataset.
+### Acknowledgments
+Special thanks to Kaggle for providing the breast cancer histopathological images dataset and the open-source community for their valuable contributions to the field of deep learning.
 
-Gratitude to the open-source deep learning community for tools like TensorFlow, Keras, and Keras Tuner.
-
-Contribute
-Feel free to:
-
-Star this repo
-
- Report bugs
-
-Suggest improvements
-
-Happy coding!
+Feel free to contribute, report issues, or suggest improvements. Happy coding
