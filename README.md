@@ -35,30 +35,30 @@ Keras Tuner helps with automatic hyperparameter optimization. It supports techni
 
 ##  Dependencies
 
--Python (version 3.10.12)
--TensorFlow (version 2.13.0)
--Keras (version 2.13.1)
--Keras Tuner (version 1.3.5)
--Other required libraries
+- Python (version 3.10.12)
+- TensorFlow (version 2.13.0)
+- Keras (version 2.13.1)
+- Keras Tuner (version 1.3.5)
+- Other required libraries
 
 # Breast Cancer Classification Results
 ## ResNet50 Model:
-- ###### Precision: 0.8569
-- ###### Accuracy: 0.8848
-- ###### Recall: 0.9196
-- ###### F1 Score: 0.8871
+-  Precision: 0.8569
+-  Accuracy: 0.8848
+-  Recall: 0.9196
+-  F1 Score: 0.8871
 
 ## VGG16 Model:
-- ###### Precision: 0.8892
-- ###### Accuracy: 0.8673
-- ###### Recall: 0.8343
-- ###### F1 Score: 0.8609
+- Precision: 0.8892
+- Accuracy: 0.8673
+- Recall: 0.8343
+- F1 Score: 0.8609
 
 ## Keras Tuner Model:
-- ###### Precision: 0.8784
-- ###### Accuracy: 0.8760
-- ###### Recall: 0.8684
-- ###### F1 Score: 0.8734
+- Precision: 0.8784
+- Accuracy: 0.8760
+- Recall: 0.8684
+- F1 Score: 0.8734
 
   ---
   
